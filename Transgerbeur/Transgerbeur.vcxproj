@@ -24,6 +24,7 @@
     <ProjectGuid>{0f4401f8-8cda-4bba-93ff-c73da8e17283}</ProjectGuid>
     <RootNamespace>Transgerbeur</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Transgerbeur</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
