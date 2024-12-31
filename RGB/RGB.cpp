@@ -11,8 +11,8 @@ using namespace std;
 // Version du compilateur : (facultatif)
 // Résumé :
 
-bool verifier(unsigned char* var);
-bool verifier(unsigned char* var) {
+bool verifier();
+bool verifier() {
 	if (cin.fail()) {
 
 		cout << endl << "Veuillez ressaisir la valeur saisit" << endl;
@@ -56,19 +56,19 @@ int main() {
 		cout << endl << "Valeur saisit : ";
 		do {
 			cin >> hex >> valeursColeurs.r;
-		} while (verifier(&valeursColeurs.r));
+		} while (verifier());
 
 		cout << endl << "Veuillez saisir une valeur pour g en hexadecimale" << endl;
 		cout << endl << "Valeur saisit : ";
 		do {
 			cin >> hex >> valeursColeurs.g;
-		} while (verifier(&valeursColeurs.g));
+		} while (verifier());
 
 		cout << endl << "Veuillez saisir une valeur pour b en hexadecimale" << endl;
 		cout << endl << "Valeur saisit : ";
 		do {
 			cin >> hex >> valeursColeurs.b;
-		} while (verifier(&valeursColeurs.b));
+		} while (verifier());
 
 
 		break;
