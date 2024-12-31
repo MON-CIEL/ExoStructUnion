@@ -22,8 +22,4 @@ int main() {
 	test.prise.jour = 06;
 	test.prise.mois = 06;
 	test.prise.annee = 2006;	
-	
-	Employes test2;
-	saisitInformations(&test2);
-
 }
